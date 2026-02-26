@@ -1,9 +1,9 @@
 public class Robot {
     private String modelName;
-    private double batteryLevel;
+    private int batteryLevel;
     private String status;
 
-    public Robot(String modelName, double batteryLevel, String status) {
+    public Robot(String modelName, int batteryLevel, String status) {
         this.modelName = modelName;
         this.batteryLevel = batteryLevel;
         this.status = status;
@@ -21,7 +21,7 @@ public class Robot {
         return batteryLevel;
     }
 
-    public void setBatteryLevel(double batteryLevel) {
+    public void setBatteryLevel(int batteryLevel) {
         this.batteryLevel = batteryLevel;
     }
 
